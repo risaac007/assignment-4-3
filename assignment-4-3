@@ -1,0 +1,106 @@
+# assignment-4-3
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication50;
+
+/**
+ *
+ * @author hp1
+ */
+public class Encapsulation {
+    private String empname;
+    private int age;
+    private long salary;
+
+    /**
+     * @return the empname
+     */
+    public String getEmpname() {
+        return empname;
+    }
+
+    /**
+     * @param empname the empname to set
+     */
+    public void setEmpname(String empname) {
+        this.empname = empname;
+    }
+
+    /**
+     * @return the age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * @param age the age to set
+     */
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    /**
+     * @return the salary
+     */
+    public long getSalary() {
+        return salary;
+    }
+
+    /**
+     * @param salary the salary to set
+     */
+    public void setSalary(long salary) {
+        this.salary = salary;
+    }
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+Main function:
+
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication50;
+
+/**
+ *
+ * @author hp1
+ */
+public class JavaApplication50 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Encapsulation obj=new Encapsulation();
+        obj.setEmpname("Reuben");
+        obj.setAge(20);
+        obj.setSalary(20000);
+        System.out.println("name is "+obj.getEmpname());
+        System.out.println("age is"+obj.getAge());
+        System.out.println("salary is"+obj.getSalary());
+        
+        
+        
+    }
+    
+}
+
